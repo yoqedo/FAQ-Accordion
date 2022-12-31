@@ -13,8 +13,8 @@ A good Practice for CSS and Basic JS Skills
 
 ### Live Preview
 
-[Preview](https://y15.netlify.app)
-[See all my Projects](https://yprojects.netlify.app)
+- [Preview](https://y15.netlify.app)
+- [See all my Projects](https://yprojects.netlify.app)
 
 ## Other Links
 

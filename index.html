@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="faq-wrapper">
+    <div class="faq-img-section">
+      <img class="img-desktop" src="./images/illustration-woman-online-desktop.svg" alt="" width="500px" height="auto">
+      <img class='img-bg' src="./images/bg-pattern-desktop.svg" alt="" width="700px">
+      <img class="img-mobile" src="./images/illustration-woman-online-mobile.svg" alt="">
+    </div>
+    <div class="faq-section">
+      <h1>FAQ</h1>
+      <div class="question">
+        <h2 class="text">How many team members can I invite?</h2>
+        <button class="buttons" data-answer="answer1" data-icon="icon1">
+          <ion-icon class="icon-down" name="chevron-down-outline" id="icon1"></ion-icon>
+        </button>
+      </div>
+      <div class="answer" id="answer1">
+        <h3>You can invite up to 2 additional users on the Free plan. There is no limit on
+          team members for the Premium plan.</h3>
+      </div>
+      <div class="divider"></div>
+      <div class="question">
+        <h2 class="text">What is the maximum file upload size?</h2>
+        <button class="buttons" data-answer="answer2" data-icon="icon2">
+          <ion-icon class="icon-down" name="chevron-down-outline" id="icon2"></ion-icon>
+        </button>
+      </div>
+      <div class="answer" id="answer2">
+        <h3> No more than 2GB. All files in your account must fit your allotted storage space.</h3>
+      </div>
+      <div class="divider"></div>
+      <div class="question">
+        <h2> How do I reset my password?</h2>
+        <button class="buttons" data-answer="answer3" data-icon="icon3">
+          <ion-icon class="icon-down" name="chevron-down-outline" id="icon3"></ion-icon>
+        </button>
+      </div>
+      <div class="answer" id="answer3">
+        <h3>Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.</h3>
+      </div>
+      <div class="divider"></div>
+      <div class="question">
+        <h2> Can I cancel my subscription?</h2>
+        <button class="buttons" data-answer="answer4" data-icon="icon4">
+          <ion-icon class="icon-down" name="chevron-down-outline" id="icon4"></ion-icon>
+        </button>
+      </div>
+      <div class="answer" id="answer4">
+        <h3>Yes! Send us a message and we’ll process your request no questions asked.</h3>
+      </div>
+      <div class="divider"></div>
+      <div class="question">
+        <h2> Do you provide additional support?</h2>
+        <button class="buttons" data-answer="answer5" data-icon="icon5">
+          <ion-icon class="icon-down" name="chevron-down-outline" id="icon5"></ion-icon>
+        </button>
+      </div>
+      <div class="answer" id="answer5">
+        <h3> Chat and email support is available 24/7. Phone lines are open during normal business hours.</h3>
+      </div>
+      <div class="divider"></div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Yoqedo</a>.
+  </div>
+
+  <script src="./main.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

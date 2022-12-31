@@ -11,10 +11,6 @@ Just pure Coding.
 
 A good Practice for CSS and Basic JS Skills
 
-### Screenshot
-
-![](./design/desktop-preview.jpg)
-
 ### Live Preview
 
 [Preview](https://y15.netlify.app)

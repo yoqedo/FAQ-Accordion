@@ -1,3 +1,5 @@
+
+
 const answerBtn = document.querySelectorAll('.buttons');
 
 answerBtn.forEach(btn => {
